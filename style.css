@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo-principal{
+    text-align: center;
+    background-color: #8a2be2;
+    padding: 25px;
+    margin: 0;
+    margin-bottom: 50px;
+    color: #f0f8ff;
+    font-size: 50px;
+}
+
+.botao-inserir{
+    background-color: #19e780;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 380px;
+}
+
+.tabela-alunos{
+    align-items: center;
+    border-radius: 5px;
+    font-size: 32px;
+    margin: auto;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.botao-alterar{
+    background-color: #3c30e0;
+    color: #f0f8ff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.botao-remover{
+    background-color: #c40a0a;
+    color: #f0f8ff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+th{
+    background-color: #7725a770;
+    color: #f0f8ff;
+}
+
+.inserir-aluno{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.inserir-aluno-titulo{
+    color: #7725a770;
+    font-size: 50px;
+}
+
+.inserir-aluno-informacao{
+    font-size: 25px;
+    justify-content: center;
+}
+
+input{
+    font-size: 25px;
+}
