@@ -69,10 +69,39 @@ th{
 }
 
 .inserir-aluno-informacao{
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
-    justify-content: center;
+    color: #09aa74;
 }
 
 input{
     font-size: 25px;
+}
+
+.botao-inserir-aluno{
+    background-color: #19e780;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px dashed  #063f22a8;
+    font-size: 20px;
+    margin-left: 230px;
+}
+
+.botao-alterar-aluno{
+    background-color: #19e780;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px dashed  #063f22a8;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.botao-cancelar{
+    background-color: #c91717;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px dashed  #c06f12a8;
+    color: #f0f8ff;
+    font-size: 20px;
+    margin-left: 10px;
 }

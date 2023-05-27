@@ -56,7 +56,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <br>
     <input type="text" name="dtIngresso">
     <br><br>
-     <input type="submit" value="Adicionar Aluno">
+     <input class="botao-inserir-aluno" type="submit" value="Inserir">
+     <a class="botao-cancelar" href="index.php">Cancelar</a>
     </form>
 </body>
 </html>

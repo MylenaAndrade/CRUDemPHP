@@ -66,7 +66,7 @@
 </head>
 <body class="inserir-aluno">
 <form method="POST">
-    <h1 class="inserir-aluno-titulo"><h1>Alterar Aluno</h1></h1>
+    <h1 class="inserir-aluno-titulo">Alterar Aluno</h1>
     <label class="inserir-aluno-informacao">Nome:</label>     
     <br>
     <input type="text" name="nome">
@@ -83,7 +83,7 @@
     <br>
     <input type="text" name="dtIngresso" value="<?php echo $dtIngresso?>">
     <br><br>
-    <input type="submit" value="Alterar">
+    <input class="botao-alterar-aluno" type="submit" value="Alterar">
     </form>
 </body>
 </html>
